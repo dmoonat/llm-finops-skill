@@ -1,0 +1,35 @@
+# Workspace & IDE files
+*.code-workspace
+adk-finops-skill.code-workspace
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Generated FinOps telemetry logs & reports
+logs/
+central_logs/
+*.jsonl
+*.csv
+finops_report.md
+finops_summary.md
+failed_runs.json
+custom_rates.json
