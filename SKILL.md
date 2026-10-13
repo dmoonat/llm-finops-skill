@@ -1,5 +1,5 @@
 ---
-name: adk-finops
+name: llm-finops-skill
 description: >-
   Universal LLM FinOps token usage, financial cost tracking, tool/grounding fee
   attribution, pre-flight budget guards, end-to-end latency/TTFT/throughput
@@ -18,10 +18,11 @@ license: Apache-2.0
 metadata:
   package: adk-finops
   repository: https://github.com/dmoonat/adk-finops
+  skill_repository: https://github.com/dmoonat/llm-finops-skill
   pypi: https://pypi.org/project/adk-finops/
 ---
 
-# `adk-finops` — Universal Agent & LLM FinOps Skill
+# `llm-finops-skill` — Universal Agent & LLM FinOps Skill (`adk-finops`)
 
 You are pair-programming with a developer to instrument **token usage, financial cost tracking, tool/grounding billing, budget guardrails, end-to-end latency/TTFT/throughput, and FinOps observability** using [`adk-finops`](https://github.com/dmoonat/adk-finops).
 

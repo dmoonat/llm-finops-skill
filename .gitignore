@@ -1,5 +1,6 @@
 # Workspace & IDE files
 *.code-workspace
+llm-finops-skill.code-workspace
 adk-finops-skill.code-workspace
 .vscode/
 .idea/

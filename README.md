@@ -1,6 +1,6 @@
-# `adk-finops` Agent Skill
+# `llm-finops-skill` — Universal Agent & LLM FinOps Skill
 
-A universal, standard-format **Agent Skill** for **[adk-finops](https://github.com/dmoonat/adk-finops)** — the FinOps cost tracking, token attribution, budget enforcement, and telemetry toolkit for AI agents across **Google ADK** and **any LLM / agentic framework**.
+A universal, standard-format **Agent Skill** ([`dmoonat/llm-finops-skill`](https://github.com/dmoonat/llm-finops-skill)) for **[adk-finops](https://github.com/dmoonat/adk-finops)** — the FinOps cost tracking, token attribution, budget enforcement, and telemetry toolkit for AI agents across **Google ADK** and **any LLM / agentic framework**.
 
 This skill follows the open [Agent Skills specification](https://agentskills.io) (`SKILL.md` with YAML frontmatter + progressive-disclosure `references/`, `examples/`, and `scripts/`) so that **any AI pair programmer** (Claude Code, Gemini CLI / Antigravity, Cursor, OpenAI Codex, Windsurf, Cline, Roo Code, GitHub Copilot) can automatically discover and apply `adk-finops` best practices when helping you build or instrument agents.
 
@@ -21,7 +21,7 @@ This skill follows the open [Agent Skills specification](https://agentskills.io)
 ## Repository Structure
 
 ```text
-adk-finops-skill/
+llm-finops-skill/
 ├── SKILL.md                                 # Entrypoint skill file (YAML frontmatter + core patterns)
 ├── README.md                                # Installation & usage guide across AI coding tools
 ├── LICENSE                                  # Apache-2.0 License
@@ -49,7 +49,7 @@ adk-finops-skill/
 Install directly into your project or global agent skill directory:
 
 ```bash
-npx skills add dmoonat/adk-finops-skill
+npx skills add dmoonat/llm-finops-skill
 ```
 
 ### Option 2: Claude Code
@@ -59,11 +59,11 @@ Copy or symlink into your personal or project `.claude/skills/` directory:
 ```bash
 # Global (available across all projects)
 mkdir -p ~/.claude/skills
-cp -R /path/to/adk-finops-skill ~/.claude/skills/adk-finops
+cp -R /path/to/llm-finops-skill ~/.claude/skills/llm-finops-skill
 
 # Project-scoped
 mkdir -p .claude/skills
-cp -R /path/to/adk-finops-skill .claude/skills/adk-finops
+cp -R /path/to/llm-finops-skill .claude/skills/llm-finops-skill
 ```
 
 ### Option 3: Gemini CLI / Antigravity / Jetski
@@ -72,7 +72,7 @@ Copy or symlink into your Gemini skills directory:
 
 ```bash
 mkdir -p ~/.gemini/config/skills
-cp -R /path/to/adk-finops-skill ~/.gemini/config/skills/adk-finops
+cp -R /path/to/llm-finops-skill ~/.gemini/config/skills/llm-finops-skill
 ```
 
 ### Option 4: Cursor / Windsurf / Cline / OpenAI Codex / GitHub Copilot
@@ -81,7 +81,7 @@ cp -R /path/to/adk-finops-skill ~/.gemini/config/skills/adk-finops
 
 ```bash
 mkdir -p .agents/skills
-cp -R /path/to/adk-finops-skill .agents/skills/adk-finops
+cp -R /path/to/llm-finops-skill .agents/skills/llm-finops-skill
 ```
 
 ---
